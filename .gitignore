@@ -1,0 +1,13 @@
+node_modules
+dist
+.output
+.vercel
+.nitro
+.env
+.env.*
+*.zip
+artifacts
+screenshots
+attachments
+.DS_Store
+*.log

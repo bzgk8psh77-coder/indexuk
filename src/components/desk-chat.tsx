@@ -11,6 +11,8 @@ export function DeskChat({ compact = false }: { compact?: boolean }) {
   const error = useDesk((s) => s.error);
   const send = useDesk((s) => s.send);
   const clear = useDesk((s) => s.clear);
+  const repeat = useDesk((s) => s.repeat);
+  const voiceOn = useDesk((s) => s.voiceOn);
   const [draft, setDraft] = useState("");
   const endRef = useRef<HTMLDivElement>(null);
   const lastUser = [...messages].reverse().find((m) => m.role === "user")?.content ?? "";
@@ -152,9 +154,16 @@ export function DeskChat({ compact = false }: { compact?: boolean }) {
           Confirm visas, tickets and times before you go.
         </p>
         {messages.length > 0 && (
-          <button type="button" onClick={clear} className="mt-1 px-2 text-xs text-night-fg/70 hover:text-night-fg">
-            Clear this conversation
-          </button>
+          <div className="mt-1 flex gap-3 px-2">
+            {voiceOn && messages.some((m) => m.role === "assistant") && (
+              <button type="button" onClick={repeat} className="text-xs text-night-fg/70 hover:text-night-fg">
+                Hear that again
+              </button>
+            )}
+            <button type="button" onClick={clear} className="text-xs text-night-fg/70 hover:text-night-fg">
+              Clear this conversation
+            </button>
+          </div>
         )}
       </form>
     </div>

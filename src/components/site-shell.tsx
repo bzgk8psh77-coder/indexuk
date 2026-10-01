@@ -28,7 +28,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
 
   function openDexter() {
     if (onHome) {
-      useDesk.getState().setOpen(true);
+      document.getElementById("dexter")?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
     setDeskOpen(true);

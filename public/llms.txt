@@ -55,6 +55,6 @@ The four nations are England, Scotland, Wales and Northern Ireland. The Republic
 
 ## Optional
 
-- [Home](https://indexuk.com/): photographs of palaces, towers and countryside, with Dexter at the top of the page.
+- [Home](https://indexuk.com/): photographs of palaces, towers and countryside. Dexter is a small chat in the header and does not cover the page.
 - [All places](https://indexuk.com/places)
 - [All briefings](https://indexuk.com/briefings)

@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import { DexterTop } from "@/components/dexter-top";
 import { PhotoFrame } from "@/components/photo-frame";
 import { briefings, places, searchIndex, type Topic, TOPICS } from "@/lib/content";
 import { useDesk } from "@/lib/desk-store";
@@ -14,7 +13,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Buckingham Palace, the Elizabeth Tower and the rest of the country — with Dexter at the top of the page, if you would rather ask.",
+          "Buckingham Palace, the Elizabeth Tower and the rest of the country — with Dexter at the desk, if you would rather ask.",
       },
       { property: "og:title", content: "Index UK" },
       { property: "og:url", content: "https://indexuk.com/" },
@@ -53,19 +52,19 @@ function Home() {
   const listed = (results ? results.briefings : briefings).filter((b) => topic === "All" || b.topic === topic);
   const placeHits = results?.places ?? [];
   const lead = briefings[1] ?? briefings[0];
+  const setOpen = useDesk((s) => s.setOpen);
   const send = useDesk((s) => s.send);
   const palace = landmarks.find((frame) => frame.title === "Buckingham Palace") ?? landmarks[0];
   const tower = landmarks.find((frame) => frame.title === "Elizabeth Tower") ?? landmarks[1];
   const castle = landmarks.find((frame) => frame.title === "Edinburgh Castle") ?? landmarks[2];
 
   function askDexter(text: string) {
-    document.getElementById("dexter")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    setOpen(true);
     void send(text);
   }
 
   return (
-    <main>
-      <DexterTop />
+    <main className="pb-8">
       <section className="border-b border-ink">
         <div className="grid min-h-[calc(100svh-3.6rem)] grid-cols-1 md:h-[calc(100svh-3.6rem)] md:grid-cols-12">
           <div className="relative min-h-[62vh] md:col-span-8">
@@ -77,7 +76,7 @@ function Home() {
                 The index of the United Kingdom.
               </h1>
               <p className="mt-4 max-w-lg font-display text-xl leading-relaxed text-night-fg md:text-2xl">
-                Palaces, towers and the country around them. Dexter is above, if you would rather ask.
+                Palaces, towers and the country around them. Dexter waits at the desk.
               </p>
             </div>
           </div>

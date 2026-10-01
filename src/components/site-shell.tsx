@@ -22,42 +22,64 @@ function Wordmark() {
 export function SiteShell({ children }: { children: ReactNode }) {
   const path = useRouterState({ select: (s) => s.location.pathname });
   const [menuOpen, setMenuOpen] = useState(false);
-  const [deskOpen, setDeskOpen] = useState(false);
+  const open = useDesk((s) => s.open);
+  const setOpen = useDesk((s) => s.setOpen);
+  const voiceOn = useDesk((s) => s.voiceOn);
+  const setVoiceOn = useDesk((s) => s.setVoiceOn);
   const onAsk = path.startsWith("/ask");
-  const onHome = path === "/";
 
   function openDexter() {
-    if (onHome) {
-      document.getElementById("dexter")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      return;
-    }
-    setDeskOpen(true);
+    if (onAsk) return;
+    setOpen(true);
   }
 
   useEffect(() => {
     setMenuOpen(false);
-    setDeskOpen(false);
     useDesk.getState().setOpen(false);
   }, [path]);
 
   useEffect(() => {
-    if (!deskOpen && !menuOpen) return;
+    if (!open && !menuOpen) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
-        setDeskOpen(false);
+        setOpen(false);
         setMenuOpen(false);
       }
     };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [deskOpen, menuOpen]);
+    const id = window.setTimeout(() => document.getElementById("desk-draft-compact")?.focus(), 40);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.clearTimeout(id);
+    };
+  }, [open, menuOpen, setOpen]);
 
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-30 border-b border-ink bg-paper/95 backdrop-blur-sm">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-6">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2 md:px-6">
           <Wordmark />
-          <nav className="hidden items-center gap-6 md:flex" aria-label="Primary">
+          <div className="flex items-center gap-3 md:gap-6">
+            {!onAsk && (
+              <button
+                type="button"
+                aria-expanded={open}
+                aria-controls="dexter-float"
+                onClick={() => setOpen(!open)}
+                className="flex items-center gap-2 border border-ink bg-paper py-1 pr-3 pl-1 text-left"
+              >
+                <img
+                  src="/photos/dexter-face.jpg"
+                  alt=""
+                  className="size-10 object-cover object-[center_68%]"
+                />
+                <span>
+                  <span className="block font-display text-base leading-none text-ink">Dexter</span>
+                  <span className="mt-0.5 block text-[0.65rem] tracking-[0.16em] text-rule uppercase">Ask</span>
+                </span>
+              </button>
+            )}
+            <nav className="hidden items-center gap-6 md:flex" aria-label="Primary">
             {NAV.map((item) => {
               const active = path === item.to || path.startsWith(`${item.to}/`);
               return (
@@ -71,16 +93,6 @@ export function SiteShell({ children }: { children: ReactNode }) {
               );
             })}
           </nav>
-          <div className="flex items-center gap-2">
-            {!onAsk && !onHome && (
-              <button
-                type="button"
-                onClick={openDexter}
-                className="hidden bg-rule px-3 py-2 text-sm text-card transition-colors duration-200 hover:bg-ink md:inline-flex"
-              >
-                Ask Dexter
-              </button>
-            )}
             <button
               type="button"
               className="inline-flex size-11 items-center justify-center border border-line md:hidden"
@@ -100,7 +112,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
                   {item.label}
                 </Link>
               ))}
-              {!onAsk && !onHome && (
+              {!onAsk && (
                 <button
                   type="button"
                   className="mt-2 bg-rule px-3 py-3 text-left text-card"
@@ -140,31 +152,30 @@ export function SiteShell({ children }: { children: ReactNode }) {
         </div>
       </footer>
 
-      {deskOpen && !onAsk && (
-        <div className="fixed inset-0 z-40">
-          <button
-            type="button"
-            className="absolute inset-0 bg-ink/40"
-            aria-label="Close the desk"
-            onClick={() => setDeskOpen(false)}
-          />
-          <div className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col border-l border-ink bg-paper">
-            <div className="flex items-center justify-between border-b border-line px-4 py-3">
-            <div className="flex items-center gap-3">
-              <img
-                src="/photos/dexter-face.jpg"
-                alt=""
-                className="size-10 object-cover object-[center_68%]"
-              />
-              <p className="font-display text-lg">Dexter</p>
-            </div>
-              <button type="button" className="size-11" aria-label="Close" onClick={() => setDeskOpen(false)}>
-                <X className="mx-auto size-5" />
+      {open && !onAsk && (
+        <section
+          id="dexter-float"
+          aria-label="Ask Dexter"
+          className="fixed top-[4.75rem] right-3 z-40 flex h-[min(26rem,62svh)] w-[min(22rem,calc(100vw-1.5rem))] flex-col overflow-hidden border border-ink bg-paper shadow-[6px_6px_0_#1c1915] md:top-[5.25rem]"
+        >
+          <header className="flex items-center justify-between gap-2 border-b border-line px-3 py-2">
+            <p className="font-display text-lg leading-none text-ink">Dexter</p>
+            <div className="flex items-center">
+              <button
+                type="button"
+                aria-pressed={voiceOn}
+                onClick={() => setVoiceOn(!voiceOn)}
+                className="px-2 py-2 text-xs tracking-wide text-muted uppercase"
+              >
+                {voiceOn ? "Voice on" : "Voice off"}
+              </button>
+              <button type="button" className="inline-flex size-11 items-center justify-center" aria-label="Close Dexter" onClick={() => setOpen(false)}>
+                <X className="size-5" />
               </button>
             </div>
-            <DeskChat compact />
-          </div>
-        </div>
+          </header>
+          <DeskChat compact />
+        </section>
       )}
     </div>
   );

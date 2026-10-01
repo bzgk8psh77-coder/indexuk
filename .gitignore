@@ -11,3 +11,7 @@ screenshots
 attachments
 .DS_Store
 *.log
+
+.grok
+AGENTS.md
+.node_modules.lock

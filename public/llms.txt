@@ -31,6 +31,15 @@ The four nations are England, Scotland, Wales and Northern Ireland. The Republic
 - [The Peak District](https://indexuk.com/places/peak-district): England’s first national park: gritstone edges, limestone dales, and cities close enough to fill the car parks. (Derbyshire and neighbours)
 - [Dover](https://indexuk.com/places/dover): The white cliffs, a harbour that faces France, and the shortest serious statement of the island. (Kent)
 - [Glenfinnan](https://indexuk.com/places/glenfinnan): A viaduct, a loch, and the monument where the Jacobite rising was raised. (The Highlands)
+- [Canterbury](https://indexuk.com/places/canterbury): A cathedral city an hour from London, with a wall you can still walk and a high street you can ignore. (Kent)
+- [Brighton](https://indexuk.com/places/brighton): A regency seafront, a pavilion that looks like a dare, and a city that does not behave like a resort. (East Sussex)
+- [Bristol](https://indexuk.com/places/bristol): A harbour city with a bridge that still looks impossible, and a centre that is not a museum of itself. (Bristol)
+- [Chester](https://indexuk.com/places/chester): A Roman grid, a complete city wall, and the Rows: galleries of shops above the street. (Cheshire)
+- [Manchester](https://indexuk.com/places/manchester): A red-brick capital of the north, with serious museums and a centre that expects you to have plans after dark. (Greater Manchester)
+- [Inverness](https://indexuk.com/places/inverness): The town at the top of the Great Glen, more useful than it is famous, and the right night before the north. (The Highlands)
+- [St Davids](https://indexuk.com/places/st-davids): Britain’s smallest city: a cathedral in a hollow, and a coast path that is the real reason to come. (Pembrokeshire)
+- [Hadrian’s Wall](https://indexuk.com/places/hadrians-wall): The stone edge of a Roman province, still walking the crags between Newcastle and Carlisle. (Northumberland)
+- [Salisbury](https://indexuk.com/places/salisbury): A cathedral close, a famous spire, and the sensible base for Stonehenge if the stones are actually the point. (Wiltshire)
 
 ## Briefings
 

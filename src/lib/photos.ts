@@ -241,6 +241,87 @@ const extras: Record<string, Frame[]> = {
   ],
   "peak-district": [countryside.find((frame) => frame.slug === "peak-district")!],
   glenfinnan: [countryside.find((frame) => frame.slug === "glenfinnan")!],
+  canterbury: [
+    {
+      src: "/photos/canterbury.jpg",
+      alt: "The towers and west front of Canterbury Cathedral above the precinct roofs.",
+      title: "The cathedral",
+      place: "Canterbury",
+      slug: "canterbury",
+    },
+  ],
+  brighton: [
+    {
+      src: "/photos/brighton.jpg",
+      alt: "The domes and minarets of the Royal Pavilion in Brighton against a blue sky.",
+      title: "The Royal Pavilion",
+      place: "Brighton",
+      slug: "brighton",
+    },
+  ],
+  bristol: [
+    {
+      src: "/photos/bristol.jpg",
+      alt: "The Clifton Suspension Bridge spanning the Avon Gorge at Bristol.",
+      title: "Clifton Suspension Bridge",
+      place: "Bristol",
+      slug: "bristol",
+    },
+  ],
+  chester: [
+    {
+      src: "/photos/chester.jpg",
+      alt: "The stone city walls of Chester, with the walkway along the top.",
+      title: "The walls",
+      place: "Chester",
+      slug: "chester",
+    },
+  ],
+  manchester: [
+    {
+      src: "/photos/manchester.jpg",
+      alt: "The columned portico of Manchester Central Library across St Peter’s Square.",
+      title: "Central Library",
+      place: "Manchester",
+      slug: "manchester",
+    },
+  ],
+  inverness: [
+    {
+      src: "/photos/inverness.jpg",
+      alt: "Inverness Castle above the River Ness, with the town on the far bank.",
+      title: "The river",
+      place: "Inverness",
+      slug: "inverness",
+    },
+  ],
+  "st-davids": [
+    {
+      src: "/photos/st-davids.jpg",
+      alt: "St Davids Cathedral in its hollow, with the river and fields of Pembrokeshire beyond.",
+      title: "The cathedral",
+      place: "St Davids",
+      slug: "st-davids",
+    },
+  ],
+  "hadrians-wall": [
+    {
+      src: "/photos/hadrian.jpg",
+      alt: "Hadrian’s Wall following the crest of Housesteads Crags under a wide sky.",
+      title: "The crags",
+      place: "Northumberland",
+      slug: "hadrians-wall",
+    },
+  ],
+  salisbury: [
+    {
+      src: "/photos/salisbury.jpg",
+      alt: "The spire of Salisbury Cathedral rising above the close.",
+      title: "The spire",
+      place: "Salisbury",
+      slug: "salisbury",
+    },
+  ],
 };
 
 export function photosFor(slug: string): Frame[] {

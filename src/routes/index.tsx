@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { PhotoFrame } from "@/components/photo-frame";
-import { briefings, places, searchIndex, type Topic, TOPICS } from "@/lib/content";
+import { briefings, places, recommendations, searchIndex, type Topic, TOPICS } from "@/lib/content";
 import { useDesk } from "@/lib/desk-store";
 import { countryside, landmarks, photosFor } from "@/lib/photos";
 
@@ -111,6 +111,30 @@ function Home() {
                     Ask Dexter
                   </span>
                 </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="border-b border-ink bg-paper-2">
+        <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
+          <p className="text-xs tracking-[0.18em] text-rule uppercase">Recommendations</p>
+          <h2 className="mt-2 max-w-2xl font-display text-3xl text-ink md:text-4xl">
+            Where to go, given the trip you actually have.
+          </h2>
+          <ul className="mt-6 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3">
+            {recommendations.map((item) => (
+              <li key={item.slug + item.title} className="bg-paper">
+                <Link
+                  to={item.to === "place" ? "/places/$slug" : "/briefings/$slug"}
+                  params={{ slug: item.slug }}
+                  className="block h-full p-5 transition-colors duration-200 hover:bg-card"
+                >
+                  <span className="text-xs tracking-wide text-rule uppercase">{item.kicker}</span>
+                  <span className="mt-2 block font-display text-xl leading-snug text-ink">{item.title}</span>
+                  <span className="mt-2 block text-sm leading-relaxed text-muted">{item.note}</span>
+                </Link>
               </li>
             ))}
           </ul>

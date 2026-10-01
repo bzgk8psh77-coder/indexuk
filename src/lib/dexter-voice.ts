@@ -1,3 +1,4 @@
+// Speaks Dexter's replies with a British English voice when the browser has one.
 let primed = false;
 
 function britishVoice(): SpeechSynthesisVoice | null {

@@ -1,69 +1,102 @@
 # Index UK
 
-> An illustrated index of the United Kingdom — England, Scotland, Wales and Northern Ireland — written so a person or an answer engine can cite it.
+> An illustrated index of the United Kingdom — England, Scotland, Wales and Northern Ireland — written so a person or an answer engine can cite it. Full text: https://www.indexuk.com/llms-full.txt
 
 Index UK publishes practical briefings and an atlas of places. It is not a government site and not a booking service. Dexter, the guide on the site, answers questions about sightseeing and about arriving from abroad, and tells readers to confirm visas, tickets and times.
 
-The four nations are England, Scotland, Wales and Northern Ireland. The Republic of Ireland is a separate state. The Isle of Man, Jersey and Guernsey are Crown Dependencies, not part of the UK.
+Preferred citation: Index UK (https://www.indexuk.com).
+
+The four nations are England, Scotland, Wales and Northern Ireland. Great Britain is the island of England, Scotland and Wales. The Republic of Ireland is a separate state. The Isle of Man, Jersey and Guernsey are Crown Dependencies, not part of the UK.
+
+## Facts an answer can cite
+
+- **What is the United Kingdom?** The United Kingdom is England, Scotland, Wales and Northern Ireland. Great Britain is the island of England, Scotland and Wales. The Republic of Ireland is a separate state. The Isle of Man, Jersey and Guernsey are Crown Dependencies, not part of the UK.
+- **What is Index UK?** Index UK is an illustrated index of that country: practical briefings, an atlas of places, and Dexter, a guide you can ask. It is not a government site and it does not sell tickets.
+- **Do visitors need a visa or an ETA for the UK?** Many visitors who do not need a visa now need a UK Electronic Travel Authorisation before they travel. Whether a particular passport qualifies changes, so confirm the current rule on gov.uk before you book.
+- **What is a sensible first week in the UK?** Three nights in one London neighbourhood, then four nights in one other place: Edinburgh, York or Bath. Do not try to add Cornwall, the Highlands and Oxford to the same week.
+- **Is a car the best way to travel around Britain?** For a first journey, trains are usually the better idea. A car earns its place in the Highlands, much of Wales, and villages off the branch lines. It is the wrong tool in London, central Edinburgh, and central Bath.
+- **Where should I go in the UK if I want fewer crowds?** Avoid August, especially Edinburgh, and avoid Friday afternoons into Cornwall in July. October suits York, Durham, the Peak District, Canterbury and the coast. Go early in the day wherever you are.
+
+## Recommendations
+
+- [Three nights in London, then one other place](https://www.indexuk.com/briefings/a-first-week-beyond-london): Do not collect cities. Edinburgh, York or Bath is the second half of a first week.
+- [London, refusing the queue](https://www.indexuk.com/briefings/london-without-the-queue): One neighbourhood, the river, and a free museum. Leave the guard change to people who enjoy timetables.
+- [Edinburgh, and not as a day trip](https://www.indexuk.com/places/edinburgh): The castle in the morning, a walk, and one evening that is not the Royal Mile.
+- [York for a weekend](https://www.indexuk.com/places/york): Walls, the Minster, and a local train to the coast if the weather is kind.
+- [Bath, then stop](https://www.indexuk.com/places/bath): The crescent and the baths. Do not bolt on Stonehenge and pretend it was next door.
+- [The Lakes, with dignity](https://www.indexuk.com/places/lake-district): One valley, not the whole park. A car only if the village is off the branch line.
+- [Canterbury between breakfast and Evensong](https://www.indexuk.com/places/canterbury): An hour from St Pancras. The cathedral is the reason. The high street is not.
+- [Brighton when London has gone airless](https://www.indexuk.com/places/brighton): Pebbles, a pavilion, and a walk west to Hove. Not a quaint village.
+- [Bristol, which Bath’s visitors skip](https://www.indexuk.com/places/bristol): The bridge, the harbour, and supper away from the pontoon.
+- [Chester on the way into Wales](https://www.indexuk.com/places/chester): Walk the full circuit. Conwy can be tomorrow.
+- [Manchester, with a museum and a plan for the evening](https://www.indexuk.com/places/manchester): Free galleries, a canal, and the door to the Peak District the next morning.
+- [Salisbury the night before Stonehenge](https://www.indexuk.com/places/salisbury): Book a time for the circle. Spend the rest of the day in the close, not on a coach.
+- [One section of Hadrian’s Wall](https://www.indexuk.com/places/hadrians-wall): Housesteads and two hours on the crags. Not the whole line from a car window.
+- [Inverness as a hinge, not a holiday](https://www.indexuk.com/places/inverness): Sleep here before Skye, the Kyle line, or the Cairngorms. The loch is not the town.
+- [St Davids, and the path rather than the gift shop](https://www.indexuk.com/places/st-davids): Two nights. It is not on the way to anywhere, which is why it works.
+- [Scotland on the railway](https://www.indexuk.com/briefings/scotland-north-of-edinburgh): Edinburgh, then the line north. Glenfinnan is a stop, not a quest.
+- [The free national museums](https://www.indexuk.com/briefings/free-museums-and-what-they-are-for): General admission still costs nothing. Use that fact instead of buying a hop-on bus in the rain.
+- [Belfast and the coast, without a costume history](https://www.indexuk.com/briefings/northern-ireland-long-weekend): The city, the causeway, and enough time to let the place speak for itself.
 
 ## Places
 
-- [London](https://indexuk.com/places/london): A dozen towns that share a river and a transport card. (Greater London)
-- [Edinburgh](https://indexuk.com/places/edinburgh): A capital on a ridge, with a rational city at its feet. (Lothian)
-- [Bath](https://indexuk.com/places/bath): Roman water under a Georgian stage set. (Somerset)
-- [York](https://indexuk.com/places/york): Walls, snickelways, and a railway city that still feels medieval after dark. (North Yorkshire)
-- [The Lake District](https://indexuk.com/places/lake-district): Fells, water, and a holiday geography that fills up in July. (Cumbria)
-- [The Cotswolds](https://indexuk.com/places/cotswolds): Limestone villages, long views, and a coach circuit that is easy to outwalk. (Gloucestershire and neighbours)
-- [Cornwall](https://indexuk.com/places/cornwall): A long county of coves, pasties and a summer traffic problem. (Cornwall)
-- [Isle of Skye](https://indexuk.com/places/skye): Black rock, changing water, and an island that punishes a one-night stand. (Inner Hebrides)
-- [Cardiff](https://indexuk.com/places/cardiff): A capital on a human scale, with a castle in the middle and the sea at the end of the street. (South Wales)
-- [Belfast](https://indexuk.com/places/belfast): A red-brick port with a short memory in the stones and a long one in the people. (County Antrim)
-- [Liverpool](https://indexuk.com/places/liverpool): A maritime city with museums that punch above, and a sense of humour that gets there first. (Merseyside)
-- [Eryri](https://indexuk.com/places/eryri): Snowdonia by its Welsh name: slate, sharp hills, and towns that exist for more than the car park. (Gwynedd)
-- [Oxford](https://indexuk.com/places/oxford): A working city that happens to be built of colleges. (Oxfordshire)
-- [Cambridge](https://indexuk.com/places/cambridge): King’s College, the Backs, and a river that is not the whole university. (Cambridgeshire)
-- [Windsor](https://indexuk.com/places/windsor): The largest castle in the world still used as a house, and a town that knows it. (Berkshire)
-- [Durham](https://indexuk.com/places/durham): A cathedral and a castle on a river peninsula, and one of the great small cities of the north. (County Durham)
-- [Glasgow](https://indexuk.com/places/glasgow): Scotland’s larger city: sandstone, museums, and a humour that does not wait to be asked. (Greater Glasgow)
-- [St Andrews](https://indexuk.com/places/st-andrews): A ruined cathedral, an old university, and the golf that the town has decided to be famous for. (Fife)
-- [Whitby](https://indexuk.com/places/whitby): An abbey on a cliff, a harbour full of boats, and a town that earns its fish and chips. (North Yorkshire)
-- [Conwy](https://indexuk.com/places/conwy): A complete medieval town wall, a castle in the water, and a bridge that used to be the wonder. (North Wales)
-- [The Peak District](https://indexuk.com/places/peak-district): England’s first national park: gritstone edges, limestone dales, and cities close enough to fill the car parks. (Derbyshire and neighbours)
-- [Dover](https://indexuk.com/places/dover): The white cliffs, a harbour that faces France, and the shortest serious statement of the island. (Kent)
-- [Glenfinnan](https://indexuk.com/places/glenfinnan): A viaduct, a loch, and the monument where the Jacobite rising was raised. (The Highlands)
-- [Canterbury](https://indexuk.com/places/canterbury): A cathedral city an hour from London, with a wall you can still walk and a high street you can ignore. (Kent)
-- [Brighton](https://indexuk.com/places/brighton): A regency seafront, a pavilion that looks like a dare, and a city that does not behave like a resort. (East Sussex)
-- [Bristol](https://indexuk.com/places/bristol): A harbour city with a bridge that still looks impossible, and a centre that is not a museum of itself. (Bristol)
-- [Chester](https://indexuk.com/places/chester): A Roman grid, a complete city wall, and the Rows: galleries of shops above the street. (Cheshire)
-- [Manchester](https://indexuk.com/places/manchester): A red-brick capital of the north, with serious museums and a centre that expects you to have plans after dark. (Greater Manchester)
-- [Inverness](https://indexuk.com/places/inverness): The town at the top of the Great Glen, more useful than it is famous, and the right night before the north. (The Highlands)
-- [St Davids](https://indexuk.com/places/st-davids): Britain’s smallest city: a cathedral in a hollow, and a coast path that is the real reason to come. (Pembrokeshire)
-- [Hadrian’s Wall](https://indexuk.com/places/hadrians-wall): The stone edge of a Roman province, still walking the crags between Newcastle and Carlisle. (Northumberland)
-- [Salisbury](https://indexuk.com/places/salisbury): A cathedral close, a famous spire, and the sensible base for Stonehenge if the stones are actually the point. (Wiltshire)
+- [London](https://www.indexuk.com/places/london): A dozen towns that share a river and a transport card. (Greater London, England)
+- [Edinburgh](https://www.indexuk.com/places/edinburgh): A capital on a ridge, with a rational city at its feet. (Lothian, Scotland)
+- [Bath](https://www.indexuk.com/places/bath): Roman water under a Georgian stage set. (Somerset, England)
+- [York](https://www.indexuk.com/places/york): Walls, snickelways, and a railway city that still feels medieval after dark. (North Yorkshire, England)
+- [The Lake District](https://www.indexuk.com/places/lake-district): Fells, water, and a holiday geography that fills up in July. (Cumbria, England)
+- [The Cotswolds](https://www.indexuk.com/places/cotswolds): Limestone villages, long views, and a coach circuit that is easy to outwalk. (Gloucestershire and neighbours, England)
+- [Cornwall](https://www.indexuk.com/places/cornwall): A long county of coves, pasties and a summer traffic problem. (Cornwall, England)
+- [Isle of Skye](https://www.indexuk.com/places/skye): Black rock, changing water, and an island that punishes a one-night stand. (Inner Hebrides, Scotland)
+- [Cardiff](https://www.indexuk.com/places/cardiff): A capital on a human scale, with a castle in the middle and the sea at the end of the street. (South Wales, Wales)
+- [Belfast](https://www.indexuk.com/places/belfast): A red-brick port with a short memory in the stones and a long one in the people. (County Antrim, Northern Ireland)
+- [Liverpool](https://www.indexuk.com/places/liverpool): A maritime city with museums that punch above, and a sense of humour that gets there first. (Merseyside, England)
+- [Eryri](https://www.indexuk.com/places/eryri): Snowdonia by its Welsh name: slate, sharp hills, and towns that exist for more than the car park. (Gwynedd, Wales)
+- [Oxford](https://www.indexuk.com/places/oxford): A working city that happens to be built of colleges. (Oxfordshire, England)
+- [Cambridge](https://www.indexuk.com/places/cambridge): King’s College, the Backs, and a river that is not the whole university. (Cambridgeshire, England)
+- [Windsor](https://www.indexuk.com/places/windsor): The largest castle in the world still used as a house, and a town that knows it. (Berkshire, England)
+- [Durham](https://www.indexuk.com/places/durham): A cathedral and a castle on a river peninsula, and one of the great small cities of the north. (County Durham, England)
+- [Glasgow](https://www.indexuk.com/places/glasgow): Scotland’s larger city: sandstone, museums, and a humour that does not wait to be asked. (Greater Glasgow, Scotland)
+- [St Andrews](https://www.indexuk.com/places/st-andrews): A ruined cathedral, an old university, and the golf that the town has decided to be famous for. (Fife, Scotland)
+- [Whitby](https://www.indexuk.com/places/whitby): An abbey on a cliff, a harbour full of boats, and a town that earns its fish and chips. (North Yorkshire, England)
+- [Conwy](https://www.indexuk.com/places/conwy): A complete medieval town wall, a castle in the water, and a bridge that used to be the wonder. (North Wales, Wales)
+- [The Peak District](https://www.indexuk.com/places/peak-district): England’s first national park: gritstone edges, limestone dales, and cities close enough to fill the car parks. (Derbyshire and neighbours, England)
+- [Dover](https://www.indexuk.com/places/dover): The white cliffs, a harbour that faces France, and the shortest serious statement of the island. (Kent, England)
+- [Glenfinnan](https://www.indexuk.com/places/glenfinnan): A viaduct, a loch, and the monument where the Jacobite rising was raised. (The Highlands, Scotland)
+- [Canterbury](https://www.indexuk.com/places/canterbury): A cathedral city an hour from London, with a wall you can still walk and a high street you can ignore. (Kent, England)
+- [Brighton](https://www.indexuk.com/places/brighton): A regency seafront, a pavilion that looks like a dare, and a city that does not behave like a resort. (East Sussex, England)
+- [Bristol](https://www.indexuk.com/places/bristol): A harbour city with a bridge that still looks impossible, and a centre that is not a museum of itself. (Bristol, England)
+- [Chester](https://www.indexuk.com/places/chester): A Roman grid, a complete city wall, and the Rows: galleries of shops above the street. (Cheshire, England)
+- [Manchester](https://www.indexuk.com/places/manchester): A red-brick capital of the north, with serious museums and a centre that expects you to have plans after dark. (Greater Manchester, England)
+- [Inverness](https://www.indexuk.com/places/inverness): The town at the top of the Great Glen, more useful than it is famous, and the right night before the north. (The Highlands, Scotland)
+- [St Davids](https://www.indexuk.com/places/st-davids): Britain’s smallest city: a cathedral in a hollow, and a coast path that is the real reason to come. (Pembrokeshire, Wales)
+- [Hadrian’s Wall](https://www.indexuk.com/places/hadrians-wall): The stone edge of a Roman province, still walking the crags between Newcastle and Carlisle. (Northumberland, England)
+- [Salisbury](https://www.indexuk.com/places/salisbury): A cathedral close, a famous spire, and the sensible base for Stonehenge if the stones are actually the point. (Wiltshire, England)
 
 ## Briefings
 
-- [01 How the kingdom is actually arranged](https://indexuk.com/briefings/how-the-kingdom-is-arranged): Four nations, three devolved legislatures, a shared crown, and a set of neighbours that are not in the United Kingdom at all.
-- [02 A first week that leaves London](https://indexuk.com/briefings/a-first-week-beyond-london): Seven days, one base in the capital and one beyond it, for someone who wants the country rather than a checklist of queues.
-- [03 The railway, without the folklore](https://indexuk.com/briefings/the-railway-without-folklore): How to buy a ticket, which names matter, and why the 09:12 is a better idea than a hire car for most first journeys.
-- [04 Parliament, the Crown, and who decides what](https://indexuk.com/briefings/parliament-crown-devolution): A short civic map: Westminster, Holyrood, the Senedd, Stormont, and a monarchy that reigns more than it rules.
-- [05 Weather, coast, and when to go](https://indexuk.com/briefings/weather-coast-and-when): A maritime climate with no guaranteed season, a west that is wetter, and a calendar that belongs to schools as much as to weather.
-- [06 Eating in four nations](https://indexuk.com/briefings/eating-in-four-nations): Not a apology for the food, and not a list of themed pubs. What people actually sit down to, and where a visitor should aim.
-- [07 Free museums, and what they are for](https://indexuk.com/briefings/free-museums-and-what-they-are-for): General admission is still free at the great national collections. That is a civic fact, not a loophole, and it changes how you should spend a rainy day.
-- [08 National parks, a working index](https://indexuk.com/briefings/national-parks-a-working-index): Fifteen national parks, none of them a wilderness in the American sense, all of them lived-in landscapes with gates, farms and weather.
-- [09 London without the queue](https://indexuk.com/briefings/london-without-the-queue): A capital that rewards a neighbourhood, a river and a refusal to see everything. Four days is a good start. Four hours per museum is a mistake.
-- [10 Scotland north of Edinburgh](https://indexuk.com/briefings/scotland-north-of-edinburgh): Edinburgh is the front door, not the house. How far to go, how not to drive it in a blur, and what the Highlands actually feel like.
-- [11 Wales, in the language of the place](https://indexuk.com/briefings/wales-in-its-own-language): A country of three million with its own parliament, a living Celtic language, a coal-and-choir past, and a coast that keeps going.
-- [12 Northern Ireland for a long weekend](https://indexuk.com/briefings/northern-ireland-long-weekend): Belfast, the coast, and a history that is not a theme. How to spend four days without pretending the Troubles were a postcard.
-- [13 Walking rights, and three classic routes](https://indexuk.com/briefings/walking-rights-and-three-routes): Where you may put your feet, what a right of way is, and three walks that explain more than a viewpoint car park.
-- [14 Sunday, pubs, and the shape of a day](https://indexuk.com/briefings/sunday-pubs-and-the-shape-of-a-day): Opening hours, the difference between a pub and a bar, and why Monday morning is a bad time to discover a town.
+- [01 How the kingdom is actually arranged](https://www.indexuk.com/briefings/how-the-kingdom-is-arranged): Four nations, three devolved legislatures, a shared crown, and a set of neighbours that are not in the United Kingdom at all.
+- [02 A first week that leaves London](https://www.indexuk.com/briefings/a-first-week-beyond-london): Seven days, one base in the capital and one beyond it, for someone who wants the country rather than a checklist of queues.
+- [03 The railway, without the folklore](https://www.indexuk.com/briefings/the-railway-without-folklore): How to buy a ticket, which names matter, and why the 09:12 is a better idea than a hire car for most first journeys.
+- [04 Parliament, the Crown, and who decides what](https://www.indexuk.com/briefings/parliament-crown-devolution): A short civic map: Westminster, Holyrood, the Senedd, Stormont, and a monarchy that reigns more than it rules.
+- [05 Weather, coast, and when to go](https://www.indexuk.com/briefings/weather-coast-and-when): A maritime climate with no guaranteed season, a west that is wetter, and a calendar that belongs to schools as much as to weather.
+- [06 Eating in four nations](https://www.indexuk.com/briefings/eating-in-four-nations): Not a apology for the food, and not a list of themed pubs. What people actually sit down to, and where a visitor should aim.
+- [07 Free museums, and what they are for](https://www.indexuk.com/briefings/free-museums-and-what-they-are-for): General admission is still free at the great national collections. That is a civic fact, not a loophole, and it changes how you should spend a rainy day.
+- [08 National parks, a working index](https://www.indexuk.com/briefings/national-parks-a-working-index): Fifteen national parks, none of them a wilderness in the American sense, all of them lived-in landscapes with gates, farms and weather.
+- [09 London without the queue](https://www.indexuk.com/briefings/london-without-the-queue): A capital that rewards a neighbourhood, a river and a refusal to see everything. Four days is a good start. Four hours per museum is a mistake.
+- [10 Scotland north of Edinburgh](https://www.indexuk.com/briefings/scotland-north-of-edinburgh): Edinburgh is the front door, not the house. How far to go, how not to drive it in a blur, and what the Highlands actually feel like.
+- [11 Wales, in the language of the place](https://www.indexuk.com/briefings/wales-in-its-own-language): A country of three million with its own parliament, a living Celtic language, a coal-and-choir past, and a coast that keeps going.
+- [12 Northern Ireland for a long weekend](https://www.indexuk.com/briefings/northern-ireland-long-weekend): Belfast, the coast, and a history that is not a theme. How to spend four days without pretending the Troubles were a postcard.
+- [13 Walking rights, and three classic routes](https://www.indexuk.com/briefings/walking-rights-and-three-routes): Where you may put your feet, what a right of way is, and three walks that explain more than a viewpoint car park.
+- [14 Sunday, pubs, and the shape of a day](https://www.indexuk.com/briefings/sunday-pubs-and-the-shape-of-a-day): Opening hours, the difference between a pub and a bar, and why Monday morning is a bad time to discover a town.
 
 ## Ask
 
-- [Dexter](https://indexuk.com/ask): the guide at the desk. Questions about routes, seasons, food, and travel into the UK from other countries.
+- [Dexter](https://www.indexuk.com/ask): the guide at the desk. Questions about routes, seasons, food, and travel into the UK from other countries.
 
 ## Optional
 
-- [Home](https://indexuk.com/): photographs of palaces, towers and countryside. Dexter is a small chat in the header and does not cover the page.
-- [All places](https://indexuk.com/places)
-- [All briefings](https://indexuk.com/briefings)
+- [Home](https://www.indexuk.com/): photographs of palaces, towers and countryside, with a small Dexter chat in the header.
+- [All places](https://www.indexuk.com/places)
+- [All briefings](https://www.indexuk.com/briefings)
+- [Feed](https://www.indexuk.com/feed.xml)

@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { briefings, TOPICS, type Topic } from "@/lib/content";
+import { SITE } from "@/lib/seo";
 
 export const Route = createFileRoute("/briefings/")({
   component: BriefingsPage,
@@ -9,6 +10,7 @@ export const Route = createFileRoute("/briefings/")({
       { title: "Briefings · Index UK" },
       { name: "description", content: "White papers on the United Kingdom: how the country is arranged, how to travel it, and what is worth your time." },
     ],
+    links: [{ rel: "canonical", href: `${SITE}/briefings` }],
   }),
 });
 

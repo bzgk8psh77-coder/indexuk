@@ -2,7 +2,7 @@ import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-r
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { SiteShell } from "@/components/site-shell";
-import { jsonLdScript, siteGraph } from "@/lib/seo";
+import { jsonLdScript, SITE, siteGraph } from "@/lib/seo";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
@@ -19,16 +19,18 @@ export const Route = createRootRoute({
       { name: "theme-color", content: "#f3efe6" },
       { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
       { name: "googlebot", content: "index, follow" },
-      { name: "bingbot", content: "index, follow" },
+      { name: "language", content: "en-GB" },
       { property: "og:site_name", content: "Index UK" },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "https://indexuk.com/og.jpg" },
+      { property: "og:image", content: `${SITE}/og.jpg` },
       { property: "og:locale", content: "en_GB" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
       { rel: "alternate", type: "text/plain", href: "/llms.txt", title: "LLM-readable index" },
+      { rel: "alternate", type: "text/plain", href: "/llms-full.txt", title: "Full text for answer engines" },
+      { rel: "alternate", type: "application/rss+xml", href: "/feed.xml", title: "Index UK" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
@@ -42,7 +44,7 @@ export const Route = createRootRoute({
     scripts: [jsonLdScript(siteGraph())],
   }),
   component: () => (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en-GB" suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>

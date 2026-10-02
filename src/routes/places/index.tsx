@@ -2,14 +2,16 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { NATIONS, places, type Nation } from "@/lib/content";
 import { photosFor } from "@/lib/photos";
+import { SITE } from "@/lib/seo";
 
 export const Route = createFileRoute("/places/")({
   component: PlacesPage,
   head: () => ({
     meta: [
       { title: "Places · Index UK" },
-      { name: "description", content: "An atlas of British places worth staying in — London to Skye, Cardiff to the Lakes." },
+      { name: "description", content: "An atlas of places in England, Scotland, Wales and Northern Ireland — where to stay, how long, and how to get there." },
     ],
+    links: [{ rel: "canonical", href: `${SITE}/places` }],
   }),
 });
 

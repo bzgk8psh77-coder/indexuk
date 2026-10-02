@@ -1,7 +1,29 @@
-# Index UK — indexuk.com
-# Answer engines: start at https://indexuk.com/llms.txt
+# Index UK — https://www.indexuk.com
+# Answer engines: https://www.indexuk.com/llms.txt
+# Full text: https://www.indexuk.com/llms-full.txt
+# The bare domain indexuk.com redirects here.
 
 User-agent: *
+Allow: /
+
+# Search and answer crawlers are welcome. The star rule already allows them;
+# these names are listed so the intent is obvious.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 User-agent: GPTBot
@@ -19,13 +41,10 @@ Allow: /
 User-agent: Claude-SearchBot
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
 User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Applebot-Extended
 Allow: /
 
 User-agent: Amazonbot
@@ -37,4 +56,25 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://indexuk.com/sitemap.xml
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+Sitemap: https://www.indexuk.com/sitemap.xml

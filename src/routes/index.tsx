@@ -1,24 +1,31 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { PhotoFrame } from "@/components/photo-frame";
-import { briefings, places, recommendations, searchIndex, type Topic, TOPICS } from "@/lib/content";
+import { briefings, places, questions, recommendations, searchIndex, type Topic, TOPICS } from "@/lib/content";
 import { useDesk } from "@/lib/desk-store";
 import { countryside, landmarks, photosFor } from "@/lib/photos";
+import { homeJsonLd, jsonLdScript, SITE } from "@/lib/seo";
 
 export const Route = createFileRoute("/")({
+  validateSearch: (search: Record<string, unknown>): { q?: string } => {
+    if (typeof search.q !== "string" || search.q.length === 0) return {};
+    return { q: search.q.slice(0, 80) };
+  },
   component: Home,
   head: () => ({
     meta: [
-      { title: "Index UK — the country, and Dexter" },
+      { title: "Index UK — England, Scotland, Wales and Northern Ireland" },
       {
         name: "description",
         content:
-          "Buckingham Palace, the Elizabeth Tower and the rest of the country — with Dexter at the desk, if you would rather ask.",
+          "A practical index of the United Kingdom: where to go in England, Scotland, Wales and Northern Ireland, how to arrive from abroad, and Dexter if you would rather ask.",
       },
       { property: "og:title", content: "Index UK" },
-      { property: "og:url", content: "https://indexuk.com/" },
+      { property: "og:description", content: "Where to go in the United Kingdom, and how to arrive." },
+      { property: "og:url", content: `${SITE}/` },
     ],
-    links: [{ rel: "canonical", href: "https://indexuk.com/" }],
+    links: [{ rel: "canonical", href: `${SITE}/` }],
+    scripts: [jsonLdScript(homeJsonLd())],
   }),
 });
 
@@ -46,7 +53,8 @@ const ARRIVALS = [
 ];
 
 function Home() {
-  const [q, setQ] = useState("");
+  const q = Route.useSearch().q ?? "";
+  const navigate = Route.useNavigate();
   const [topic, setTopic] = useState<Topic | "All">("All");
   const results = useMemo(() => (q.trim() ? searchIndex(q) : null), [q]);
   const listed = (results ? results.briefings : briefings).filter((b) => topic === "All" || b.topic === topic);
@@ -208,7 +216,7 @@ function Home() {
             <span className="sr-only">Search the index</span>
             <input
               value={q}
-              onChange={(e) => setQ(e.target.value)}
+              onChange={(e) => navigate({ search: { q: e.target.value }, replace: true })}
               placeholder="Search York, rail, Sunday, Wales…"
               className="w-full border border-line bg-card px-3 py-3 text-ink placeholder:text-muted"
             />
@@ -286,6 +294,21 @@ function Home() {
               );
             })}
           </ul>
+        </div>
+      </section>
+
+      <section className="border-t border-ink">
+        <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
+          <p className="text-xs tracking-[0.18em] text-rule uppercase">Plain answers</p>
+          <h2 className="mt-2 font-display text-3xl text-ink">What the index will say, if you ask.</h2>
+          <dl className="mt-6 divide-y divide-line border-y border-line">
+            {questions.map((item) => (
+              <div key={item.q} className="py-4">
+                <dt className="font-display text-xl text-ink">{item.q}</dt>
+                <dd className="mt-2 max-w-3xl text-sm leading-relaxed text-muted">{item.a}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
     </main>

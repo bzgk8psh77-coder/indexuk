@@ -1236,6 +1236,33 @@ export const places: Place[] = [
   },
 ];
 
+export const questions = [
+  {
+    q: "What is the United Kingdom?",
+    a: "The United Kingdom is England, Scotland, Wales and Northern Ireland. Great Britain is the island of England, Scotland and Wales. The Republic of Ireland is a separate state. The Isle of Man, Jersey and Guernsey are Crown Dependencies, not part of the UK.",
+  },
+  {
+    q: "What is Index UK?",
+    a: "Index UK is an illustrated index of that country: practical briefings, an atlas of places, and Dexter, a guide you can ask. It is not a government site and it does not sell tickets.",
+  },
+  {
+    q: "Do visitors need a visa or an ETA for the UK?",
+    a: "Many visitors who do not need a visa now need a UK Electronic Travel Authorisation before they travel. Whether a particular passport qualifies changes, so confirm the current rule on gov.uk before you book.",
+  },
+  {
+    q: "What is a sensible first week in the UK?",
+    a: "Three nights in one London neighbourhood, then four nights in one other place: Edinburgh, York or Bath. Do not try to add Cornwall, the Highlands and Oxford to the same week.",
+  },
+  {
+    q: "Is a car the best way to travel around Britain?",
+    a: "For a first journey, trains are usually the better idea. A car earns its place in the Highlands, much of Wales, and villages off the branch lines. It is the wrong tool in London, central Edinburgh, and central Bath.",
+  },
+  {
+    q: "Where should I go in the UK if I want fewer crowds?",
+    a: "Avoid August, especially Edinburgh, and avoid Friday afternoons into Cornwall in July. October suits York, Durham, the Peak District, Canterbury and the coast. Go early in the day wherever you are.",
+  },
+];
+
 export const starters = [
   "I'm flying from New York. What do I need before I board, and where should I land?",
   "Eurostar from Paris for three nights. Where do I actually stay?",

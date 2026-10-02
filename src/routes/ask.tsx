@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { DeskChat } from "@/components/desk-chat";
+import { SITE } from "@/lib/seo";
 
 export const Route = createFileRoute("/ask")({
   component: AskPage,
@@ -9,9 +10,10 @@ export const Route = createFileRoute("/ask")({
       {
         name: "description",
         content:
-          "Dexter keeps the desk at Index UK. Ask him about the country, this website, or how to travel here from abroad.",
+          "Dexter keeps the desk at Index UK. Ask about England, Scotland, Wales, Northern Ireland, or how to travel here from abroad.",
       },
     ],
+    links: [{ rel: "canonical", href: `${SITE}/ask` }],
   }),
 });
 

@@ -1,156 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://indexuk.com/</loc>
+    <loc>https://www.indexuk.com/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places</loc>
+    <loc>https://www.indexuk.com/places</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings</loc>
+    <loc>https://www.indexuk.com/briefings</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/ask</loc>
+    <loc>https://www.indexuk.com/ask</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/llms.txt</loc>
+    <loc>https://www.indexuk.com/llms.txt</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/london</loc>
+    <loc>https://www.indexuk.com/llms-full.txt</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/edinburgh</loc>
+    <loc>https://www.indexuk.com/feed.xml</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/bath</loc>
+    <loc>https://www.indexuk.com/places/london</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/york</loc>
+    <loc>https://www.indexuk.com/places/edinburgh</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/lake-district</loc>
+    <loc>https://www.indexuk.com/places/bath</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/cotswolds</loc>
+    <loc>https://www.indexuk.com/places/york</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/cornwall</loc>
+    <loc>https://www.indexuk.com/places/lake-district</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/skye</loc>
+    <loc>https://www.indexuk.com/places/cotswolds</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/cardiff</loc>
+    <loc>https://www.indexuk.com/places/cornwall</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/belfast</loc>
+    <loc>https://www.indexuk.com/places/skye</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/liverpool</loc>
+    <loc>https://www.indexuk.com/places/cardiff</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/eryri</loc>
+    <loc>https://www.indexuk.com/places/belfast</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/oxford</loc>
+    <loc>https://www.indexuk.com/places/liverpool</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/cambridge</loc>
+    <loc>https://www.indexuk.com/places/eryri</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/windsor</loc>
+    <loc>https://www.indexuk.com/places/oxford</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/durham</loc>
+    <loc>https://www.indexuk.com/places/cambridge</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/glasgow</loc>
+    <loc>https://www.indexuk.com/places/windsor</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/st-andrews</loc>
+    <loc>https://www.indexuk.com/places/durham</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/whitby</loc>
+    <loc>https://www.indexuk.com/places/glasgow</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/conwy</loc>
+    <loc>https://www.indexuk.com/places/st-andrews</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/peak-district</loc>
+    <loc>https://www.indexuk.com/places/whitby</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/dover</loc>
+    <loc>https://www.indexuk.com/places/conwy</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/glenfinnan</loc>
+    <loc>https://www.indexuk.com/places/peak-district</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/canterbury</loc>
+    <loc>https://www.indexuk.com/places/dover</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/brighton</loc>
+    <loc>https://www.indexuk.com/places/glenfinnan</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/bristol</loc>
+    <loc>https://www.indexuk.com/places/canterbury</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/chester</loc>
+    <loc>https://www.indexuk.com/places/brighton</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/manchester</loc>
+    <loc>https://www.indexuk.com/places/bristol</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/inverness</loc>
+    <loc>https://www.indexuk.com/places/chester</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/st-davids</loc>
+    <loc>https://www.indexuk.com/places/manchester</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/hadrians-wall</loc>
+    <loc>https://www.indexuk.com/places/inverness</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/places/salisbury</loc>
+    <loc>https://www.indexuk.com/places/st-davids</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/how-the-kingdom-is-arranged</loc>
+    <loc>https://www.indexuk.com/places/hadrians-wall</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/a-first-week-beyond-london</loc>
+    <loc>https://www.indexuk.com/places/salisbury</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/the-railway-without-folklore</loc>
+    <loc>https://www.indexuk.com/briefings/how-the-kingdom-is-arranged</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/parliament-crown-devolution</loc>
+    <loc>https://www.indexuk.com/briefings/a-first-week-beyond-london</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/weather-coast-and-when</loc>
+    <loc>https://www.indexuk.com/briefings/the-railway-without-folklore</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/eating-in-four-nations</loc>
+    <loc>https://www.indexuk.com/briefings/parliament-crown-devolution</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/free-museums-and-what-they-are-for</loc>
+    <loc>https://www.indexuk.com/briefings/weather-coast-and-when</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/national-parks-a-working-index</loc>
+    <loc>https://www.indexuk.com/briefings/eating-in-four-nations</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/london-without-the-queue</loc>
+    <loc>https://www.indexuk.com/briefings/free-museums-and-what-they-are-for</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/scotland-north-of-edinburgh</loc>
+    <loc>https://www.indexuk.com/briefings/national-parks-a-working-index</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/wales-in-its-own-language</loc>
+    <loc>https://www.indexuk.com/briefings/london-without-the-queue</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/northern-ireland-long-weekend</loc>
+    <loc>https://www.indexuk.com/briefings/scotland-north-of-edinburgh</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/walking-rights-and-three-routes</loc>
+    <loc>https://www.indexuk.com/briefings/wales-in-its-own-language</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indexuk.com/briefings/sunday-pubs-and-the-shape-of-a-day</loc>
+    <loc>https://www.indexuk.com/briefings/northern-ireland-long-weekend</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.indexuk.com/briefings/walking-rights-and-three-routes</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.indexuk.com/briefings/sunday-pubs-and-the-shape-of-a-day</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

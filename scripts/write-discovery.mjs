@@ -1,5 +1,8 @@
 import { writeFileSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { briefings, places, questions, recommendations } from "../src/lib/content.ts";
+
+const listings = JSON.parse(readFileSync(new URL("../src/lib/directory-data.json", import.meta.url), "utf8"));
 
 const SITE = "https://www.indexuk.com";
 const KEY = "a7e3c91b4d08f6e25c1a9b70d4f8e263";
@@ -19,6 +22,9 @@ const urls = [
   { loc: `${SITE}/briefings`, priority: "0.9" },
   { loc: `${SITE}/ask`, priority: "0.6" },
   { loc: `${SITE}/letter`, priority: "0.6" },
+  { loc: `${SITE}/directory`, priority: "0.8" },
+  { loc: `${SITE}/directory/places-to-eat`, priority: "0.8" },
+  ...listings.map((listing) => ({ loc: `${SITE}/directory/places-to-eat/${listing.id}`, priority: "0.6" })),
   { loc: `${SITE}/llms.txt`, priority: "0.4" },
   { loc: `${SITE}/llms-full.txt`, priority: "0.5" },
   { loc: `${SITE}/feed.xml`, priority: "0.3" },
@@ -71,6 +77,7 @@ ${briefings.map((briefing) => `- [${briefing.number} ${briefing.title}](${SITE}/
 
 - [Dexter](${SITE}/ask): the guide at the desk. Questions about routes, seasons, food, and travel into the UK from other countries.
 - [The ten](${SITE}/letter): the ten must-attend events in the UK each month, named on the first. England, Scotland, Wales and Northern Ireland. Sign up with an email. Contact: info@indexuk.com.
+- [Business index](${SITE}/directory): a public index of UK businesses. The first sector is places to eat, taken from the Food Standards Agency register on 3 October 2026. A hygiene rating is not a review. Businesses may claim, correct, or request removal via info@indexuk.com.
 
 ## Optional
 

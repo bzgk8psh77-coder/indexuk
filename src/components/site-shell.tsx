@@ -8,7 +8,7 @@ import { useDesk } from "@/lib/desk-store";
 const NAV = [
   { to: "/briefings", label: "Briefings" },
   { to: "/places", label: "Places" },
-  { to: "/letter", label: "Letter" },
+  { to: "/letter", label: "The Ten" },
   { to: "/ask", label: "Dexter" },
 ] as const;
 
@@ -155,9 +155,9 @@ export function SiteShell({ children }: { children: ReactNode }) {
             </p>
             <p className="mt-2">
               <Link to="/letter" className="text-ink underline decoration-line underline-offset-4 hover:text-rule">
-                The monthly letter
+                The ten
               </Link>
-              {" — ten things, on the first."}
+              {" — the must-attend events in the UK, named on the first of every month."}
             </p>
             <p className="mt-2">Not a government site. Confirm times, tickets and tides before you travel.</p>
           </div>

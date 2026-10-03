@@ -125,6 +125,26 @@ function Home() {
         </div>
       </section>
 
+      <section className="border-b border-ink bg-night">
+        <div className="mx-auto grid max-w-6xl items-end gap-8 px-4 py-12 md:grid-cols-12 md:px-6 md:py-16">
+          <div className="md:col-span-8">
+            <p className="text-xs tracking-[0.18em] text-rule uppercase">Every month, on the first</p>
+            <h2 className="mt-3 max-w-2xl font-display text-4xl leading-[1.05] text-night-fg md:text-6xl">
+              The ten must-attend events in the UK.
+            </h2>
+            <p className="mt-4 max-w-xl font-display text-xl leading-relaxed text-night-fg/85">
+              A night you will talk about. A match worth the fare. A garden for a week, and then gone. Named across
+              England, Scotland, Wales and Northern Ireland — before the month spends them.
+            </p>
+          </div>
+          <div className="md:col-span-4">
+            <Link to="/letter" className="inline-flex bg-rule px-5 py-3 text-card">
+              Send me the ten
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="border-b border-ink bg-paper-2">
         <div className="mx-auto max-w-6xl px-4 py-10 md:px-6">
           <p className="text-xs tracking-[0.18em] text-rule uppercase">Recommendations</p>

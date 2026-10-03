@@ -70,7 +70,7 @@ ${briefings.map((briefing) => `- [${briefing.number} ${briefing.title}](${SITE}/
 ## Ask
 
 - [Dexter](${SITE}/ask): the guide at the desk. Questions about routes, seasons, food, and travel into the UK from other countries.
-- [The letter](${SITE}/letter): ten upcoming things, sent on the first of the month. Sign up with an email. Contact: info@indexuk.com.
+- [The ten](${SITE}/letter): the ten must-attend events in the UK each month, named on the first. England, Scotland, Wales and Northern Ireland. Sign up with an email. Contact: info@indexuk.com.
 
 ## Optional
 

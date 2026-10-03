@@ -8,13 +8,14 @@ import { useDesk } from "@/lib/desk-store";
 const NAV = [
   { to: "/briefings", label: "Briefings" },
   { to: "/places", label: "Places" },
+  { to: "/letter", label: "Letter" },
   { to: "/ask", label: "Dexter" },
 ] as const;
 
 function Wordmark() {
   return (
     <Link to="/" className="flex items-center">
-      <img src="/brand/indexuk.png" alt="indexuk.com" className="h-16 w-auto md:h-20" />
+      <img src="/brand/indexuk.png" alt="indexuk.com" className="h-12 w-auto md:h-16" />
     </Link>
   );
 }
@@ -134,7 +135,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       <footer className="border-t border-ink">
         <div className="mx-auto grid max-w-6xl gap-6 px-4 py-10 md:grid-cols-3 md:px-6">
           <div>
-            <img src="/brand/indexuk.png" alt="" className="h-12 w-auto" />
+            <img src="/brand/indexuk.png" alt="" className="h-10 w-auto" />
             <p className="mt-2 max-w-xs text-sm leading-relaxed text-muted">
               White papers for one country, and Dexter at the desk — the journey in, and the day once you are here.
             </p>
@@ -146,7 +147,18 @@ export function SiteShell({ children }: { children: ReactNode }) {
             </p>
           </div>
           <div className="text-sm text-muted">
-            <p>Dexter · September 2026</p>
+            <p>
+              Email us:{" "}
+              <a className="text-ink underline decoration-line underline-offset-4 hover:text-rule" href="mailto:info@indexuk.com">
+                info@indexuk.com
+              </a>
+            </p>
+            <p className="mt-2">
+              <Link to="/letter" className="text-ink underline decoration-line underline-offset-4 hover:text-rule">
+                The monthly letter
+              </Link>
+              {" — ten things, on the first."}
+            </p>
             <p className="mt-2">Not a government site. Confirm times, tickets and tides before you travel.</p>
           </div>
         </div>

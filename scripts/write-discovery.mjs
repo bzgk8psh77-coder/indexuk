@@ -18,6 +18,7 @@ const urls = [
   { loc: `${SITE}/places`, priority: "0.9" },
   { loc: `${SITE}/briefings`, priority: "0.9" },
   { loc: `${SITE}/ask`, priority: "0.6" },
+  { loc: `${SITE}/letter`, priority: "0.6" },
   { loc: `${SITE}/llms.txt`, priority: "0.4" },
   { loc: `${SITE}/llms-full.txt`, priority: "0.5" },
   { loc: `${SITE}/feed.xml`, priority: "0.3" },
@@ -69,6 +70,7 @@ ${briefings.map((briefing) => `- [${briefing.number} ${briefing.title}](${SITE}/
 ## Ask
 
 - [Dexter](${SITE}/ask): the guide at the desk. Questions about routes, seasons, food, and travel into the UK from other countries.
+- [The letter](${SITE}/letter): ten upcoming things, sent on the first of the month. Sign up with an email. Contact: info@indexuk.com.
 
 ## Optional
 
